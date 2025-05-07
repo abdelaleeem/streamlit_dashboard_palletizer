@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load Excel file
-file_path = r"D:\packing + palletizer area/palletizer downtime.xlsx"
+file_path = "palletizer downtime.xlsx"
 df = pd.read_excel(file_path, sheet_name="Cleaned Downtime")
 
 # Clean text columns
